@@ -1,0 +1,31 @@
+/* global color variables */
+/* mixins and functions */
+#nav-cust {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  color: #BCACAC;
+  background-color: #FFFFFF; }
+  #nav-cust:before, #nav-cust:after {
+    content: " ";
+    display: table; }
+  #nav-cust:after {
+    clear: both; }
+  #nav-cust a {
+    float: left;
+    width: 50%;
+    height: 3rem;
+    text-align: center;
+    border-top: 1px solid #ddd; }
+    #nav-cust a .title-icon {
+      height: 2rem;
+      line-height: 2rem;
+      font-size: 1.4rem; }
+    #nav-cust a .title-text {
+      height: 1rem;
+      line-height: .7rem;
+      font-size: .7rem; }
+
+.active-nav {
+  color: #09BB07; }

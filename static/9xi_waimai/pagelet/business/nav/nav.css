@@ -1,0 +1,31 @@
+/* global color variables */
+/* mixins and functions */
+#nav-bus {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  color: #BCACAC;
+  background-color: #FFFFFF; }
+  #nav-bus:before, #nav-bus:after {
+    content: " ";
+    display: table; }
+  #nav-bus:after {
+    clear: both; }
+  #nav-bus a {
+    float: left;
+    width: 33.33333%;
+    height: 3rem;
+    text-align: center;
+    border-top: 1px solid #ddd; }
+    #nav-bus a .title-icon {
+      height: 2rem;
+      line-height: 2rem;
+      font-size: 1.4rem; }
+    #nav-bus a .title-text {
+      height: 1rem;
+      line-height: .7rem;
+      font-size: .7rem; }
+
+.active-nav {
+  color: #09BB07; }

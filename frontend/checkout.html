@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+  <title></title>
+</head>
+<body>
+<button id="checkoutButton">Checkout</button>
+
+</body>
+<script src="http://zeptojs.com/zepto.min.js"></script>
+<script src="https://checkout.stripe.com/checkout.js"></script>
+<script>
+  $(function() {
+    var STRIPE_KEY = 'pk_test_yuCytuM0flv2mqm521cM1PKA';
+
+    var order = {
+      id: 1,
+      amount: 50,  // 最小 50
+      comment: 'comment....'
+    };
+
+    var handler = StripeCheckout.configure({
+      key: STRIPE_KEY,
+      image: 'http://7xqzzf.com5.z0.glb.clouddn.com/logo.jpg',
+      locale: 'auto',
+      token: function(token) {
+        $.post('/orders/' + order.id + '/charge', {
+          token: token.id
+        }, function(resp) {
+          if (resp.succeed) {
+            alert('支付成功')
+          } else{
+            alert('支付失败')
+          }
+        });
+      }
+    });
+
+    $('#checkoutButton').on('click', function(e) {
+      handler.open({
+        name: 'Mr Meng Online Restaurant',
+        currency: 'aud',
+        description: order.comment,
+        amount: order.amount
+      });
+      e.preventDefault();
+    });
+
+    $(window).on('popstate', function() {
+      handler.close();
+    })
+  })
+</script>
+</html>

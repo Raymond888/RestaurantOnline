@@ -1,0 +1,74 @@
+/* global color variables */
+/* mixins and functions */
+#order-create {
+  color: #333; }
+  #order-create .address-cell {
+    margin-top: 0; }
+    #order-create .address-cell:before {
+      position: absolute;
+      top: .5rem;
+      right: 0;
+      border-top: .2rem dashed #BD738B; }
+    #order-create .address-cell p:first-child {
+      margin-top: .5rem;
+      padding: 0.5rem 0 0.3rem; }
+    #order-create .address-cell p:last-child {
+      padding: 0.3rem 0 0.5rem; }
+  #order-create .info-cell .payment-approach {
+    display: inline-block;
+    padding: .5rem .6rem;
+    border: 1px solid #ddd;
+    font-size: .7rem;
+    color: #ddd; }
+  #order-create .info-cell .payment-active {
+    color: #FFFFFF;
+    background-color: #09BB07; }
+  #order-create .info-cell .payment-online {
+    margin-right: .5rem; }
+  #order-create .info-cell ::-webkit-input-placeholder {
+    text-align: right; }
+  #order-create .item-list p {
+    color: #BCACAC; }
+  #order-create .item-list .item {
+    margin-top: .4rem; }
+    #order-create .item-list .item:before, #order-create .item-list .item:after {
+      content: " ";
+      display: table; }
+    #order-create .item-list .item:after {
+      clear: both; }
+    #order-create .item-list .item span {
+      float: left; }
+    #order-create .item-list .item .item-name {
+      width: 55%; }
+    #order-create .item-list .item .item-amount {
+      width: 15%;
+      text-align: right; }
+    #order-create .item-list .item .item-price {
+      width: 30%;
+      text-align: right; }
+  #order-create .light-bar {
+    position: fixed;
+    bottom: 3rem;
+    right: 0;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    color: #FFFFFF;
+    background-color: #36E734;
+    font-size: .9rem;
+    font-weight: 300; }
+    #order-create .light-bar .note {
+      padding: 0 1rem 0 .5rem; }
+    #order-create .light-bar .order {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 26%;
+      height: 100%;
+      background-color: #09BB07;
+      text-align: center; }
+    #order-create .light-bar strong {
+      font-weight: normal; }
+
+#fullname {
+  padding-right: .6rem; }

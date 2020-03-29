@@ -1,0 +1,42 @@
+<section class="module-nav">
+    <ul>
+        <li class="nav-category category-active" data-id="">限时秒杀</li>
+        <li class="nav-category">新品推荐</li>
+        <li class="nav-category">主食</li>
+        <li class="nav-category">配菜</li>
+        <li class="nav-category">饮品</li>
+        <li class="nav-category">甜品</li>
+        <!-- <li class="nav-category">全部</li> -->
+    </ul>
+</section>
+
+<section id="category" class="module-content">
+    <div class="weui_cells">
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><img src="http://i3.shouyou.itc.cn/v3/news/2015/01/02/0102112838659403284.jpg" alt=""></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <p class="title">秘制荔枝</p>
+                <p class="price">$20.00/瓶</p>
+            </div>
+            <div class="weui_cell_ft">
+                <div class="action">
+                    <i class="iconfont icon-minus"></i>
+                    10
+                    <i class="iconfont icon-plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><img src="http://i3.shouyou.itc.cn/v3/news/2015/01/02/0102112838659403284.jpg" alt=""></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <p>标题文字</p>
+            </div>
+            <div class="weui_cell_ft">说明文字</div>
+        </div>
+    </div>
+    <div class="light-bar">
+        <span class="note">已选<strong id="count">2</strong>份</span>
+        $<strong id="sum-price">138</strong>
+        <div class="order">去下单</div>
+    </div>
+</section>

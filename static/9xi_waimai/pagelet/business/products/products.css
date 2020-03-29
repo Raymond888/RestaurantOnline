@@ -1,0 +1,36 @@
+/* global color variables */
+/* mixins and functions */
+#products {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  #products .products-title span {
+    margin-left: 10px; }
+  #products .products-title .action {
+    float: right; }
+  #products .products-title .weui_btn {
+    display: inline-block;
+    width: inherit;
+    float: right;
+    height: 35px;
+    margin-top: 0;
+    margin-right: 10px;
+    line-height: 1.3333;
+    padding-left: 10px;
+    padding-right: 10px; }
+  #products .weui_cell_bd img {
+    margin-left: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    float: left; }
+  #products .weui_cell_bd .product-detail {
+    padding-left: 5rem; }
+    #products .weui_cell_bd .product-detail .produc-price {
+      margin-top: 5px;
+      color: #ffbf00; }
+  #products .weui_uploader_input_wrp:before {
+    height: 0; }
+  #products .weui_uploader_input_wrp:after {
+    height: 0; }

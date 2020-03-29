@@ -1,0 +1,18 @@
+/* global color variables */
+/* mixins and functions */
+#add-address .weui_label {
+  width: 9rem; }
+#add-address .weui_uploader_input_wrp {
+  background-size: 100% 100%;
+  float: right; }
+#add-address .weui_btn {
+  color: #fcc000;
+  border-color: #ffbf00;
+  background-color: #ffffff; }
+#add-address .weui_btn:after {
+  border-color: #ffbf00;
+  border-width: 2px; }
+#add-address .weui_cells_access .weui_cell_ft:after {
+  border-style: none; }
+#add-address .weui_select {
+  padding-left: 0; }

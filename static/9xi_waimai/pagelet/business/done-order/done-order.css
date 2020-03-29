@@ -1,0 +1,92 @@
+/* global color variables */
+/* mixins and functions */
+#done-order {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  #done-order .done-order-list {
+    height: 100%;
+    width: 100%; }
+    #done-order .done-order-list .order-item {
+      color: #ffbf00;
+      border-top: 5px solid #ffbf00;
+      margin-top: 15px;
+      box-shadow: 0px 3px 3px #d5d5d5; }
+      #done-order .done-order-list .order-item.finished {
+        color: #04be02;
+        border-top: 5px solid #04be02; }
+      #done-order .done-order-list .order-item:first-child .order-detail {
+        display: block; }
+      #done-order .done-order-list .order-item.closed {
+        color: #5a5a5a;
+        border-top: 5px solid #5a5a5a; }
+      #done-order .done-order-list .order-item h5 {
+        font-size: 2.3rem;
+        display: inline-block;
+        margin-left: 10px; }
+      #done-order .done-order-list .order-item .status-detail {
+        position: relative;
+        top: 5px;
+        font-size: 0.9rem;
+        display: inline-block; }
+        #done-order .done-order-list .order-item .status-detail span {
+          display: block; }
+      #done-order .done-order-list .order-item .pay-status {
+        display: inline-block;
+        width: inherit;
+        float: right;
+        height: 35px;
+        margin-top: 15px;
+        margin-right: 10px;
+        line-height: 1.3333;
+        padding-left: 10px;
+        padding-right: 10px; }
+      #done-order .done-order-list .order-item .order-detail {
+        color: #454545;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: none; }
+        #done-order .done-order-list .order-item .order-detail .tel {
+          color: #ffbf00; }
+        #done-order .done-order-list .order-item .order-detail .address {
+          margin-top: 5px; }
+        #done-order .done-order-list .order-item .order-detail .description {
+          margin-top: 5px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #cccccc; }
+        #done-order .done-order-list .order-item .order-detail .dish-list {
+          border-bottom: 1px solid #cccccc; }
+          #done-order .done-order-list .order-item .order-detail .dish-list h4 {
+            color: #cbcbcb;
+            font-weight: normal; }
+          #done-order .done-order-list .order-item .order-detail .dish-list .dish-item {
+            width: 100%;
+            margin-bottom: 5px; }
+            #done-order .done-order-list .order-item .order-detail .dish-list .dish-item .dish-name {
+              float: left;
+              width: 65%; }
+            #done-order .done-order-list .order-item .order-detail .dish-list .dish-item .dish-money {
+              float: right;
+              max-width: 20%; }
+        #done-order .done-order-list .order-item .order-detail .total-money {
+          text-align: right;
+          border-bottom: 1px solid #cccccc;
+          margin-top: 10px;
+          padding-bottom: 10px; }
+        #done-order .done-order-list .order-item .order-detail .action {
+          margin-top: 10px;
+          padding-bottom: 10px; }
+          #done-order .done-order-list .order-item .order-detail .action button {
+            display: inline-block; }
+          #done-order .done-order-list .order-item .order-detail .action .invalid {
+            width: 6rem; }
+          #done-order .done-order-list .order-item .order-detail .action .do-something {
+            margin-top: 0;
+            float: right;
+            width: 8rem;
+            color: #fcc000;
+            border-color: #ffbf00; }
+          #done-order .done-order-list .order-item .order-detail .action .do-something:after {
+            border-color: #ffbf00; }

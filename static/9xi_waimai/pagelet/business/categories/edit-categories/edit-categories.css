@@ -1,0 +1,13 @@
+/* global color variables */
+/* mixins and functions */
+#edit-categories .weui_label {
+  width: 5rem; }
+#edit-categories .weui_btn {
+  color: #fcc000;
+  border-color: #ffbf00;
+  background-color: #ffffff; }
+#edit-categories .weui_btn:after {
+  border-color: #ffbf00;
+  border-width: 2px; }
+#edit-categories .weui_select {
+  padding-left: 0; }

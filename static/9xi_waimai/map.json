@@ -1,0 +1,550 @@
+{
+    "res": {
+        "pagelet/app-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/app-view.js",
+            "type": "js"
+        },
+        "pagelet/app.js": {
+            "uri": "/static/9xi_waimai/pagelet/app.js",
+            "type": "js",
+            "deps": [
+                "pagelet/handlebarHelp.js",
+                "pagelet/models.js",
+                "pagelet/customer/nav/nav-view.js",
+                "pagelet/customer/menu/menu-view.js",
+                "pagelet/customer/orders/orders-view.js",
+                "pagelet/customer/orders/order-create/order-create-view.js",
+                "pagelet/customer/orders/order-detail/order-detail-view.js",
+                "pagelet/customer/address/address-list-view.js",
+                "pagelet/customer/address/add-address/add-address-view.js",
+                "pagelet/business/nav/nav-view.js",
+                "pagelet/business/new-order/new-order-view.js",
+                "pagelet/business/done-order/done-order-view.js",
+                "pagelet/business/products/products.js",
+                "pagelet/business/products/add-product/add-product.js",
+                "pagelet/business/products/edit-product/edit-product.js",
+                "pagelet/business/categories/categories.js",
+                "pagelet/business/categories/add-categories/add-categories.js",
+                "pagelet/business/categories/edit-categories/edit-categories.js",
+                "pagelet/router.js"
+            ],
+            "id": "pagelet/app.js"
+        },
+        "pagelet/business/categories/add-categories/add-categories.js": {
+            "uri": "/static/9xi_waimai/pagelet/business/categories/add-categories/add-categories.js",
+            "type": "js",
+            "deps": [
+                "pagelet/business/categories/add-categories/add-categories.scss"
+            ],
+            "id": "pagelet/business/categories/add-categories/add-categories.js"
+        },
+        "pagelet/business/categories/add-categories/add-categories.scss": {
+            "uri": "/static/9xi_waimai/pagelet/business/categories/add-categories/add-categories.css",
+            "type": "css",
+            "id": "pagelet/business/categories/add-categories/add-categories.scss"
+        },
+        "pagelet/business/categories/categories.js": {
+            "uri": "/static/9xi_waimai/pagelet/business/categories/categories.js",
+            "type": "js",
+            "deps": [
+                "pagelet/business/categories/categories.scss"
+            ],
+            "id": "pagelet/business/categories/categories.js"
+        },
+        "pagelet/business/categories/categories.scss": {
+            "uri": "/static/9xi_waimai/pagelet/business/categories/categories.css",
+            "type": "css",
+            "id": "pagelet/business/categories/categories.scss"
+        },
+        "pagelet/business/categories/edit-categories/edit-categories.js": {
+            "uri": "/static/9xi_waimai/pagelet/business/categories/edit-categories/edit-categories.js",
+            "type": "js",
+            "deps": [
+                "pagelet/business/categories/edit-categories/edit-categories.scss"
+            ],
+            "id": "pagelet/business/categories/edit-categories/edit-categories.js"
+        },
+        "pagelet/business/categories/edit-categories/edit-categories.scss": {
+            "uri": "/static/9xi_waimai/pagelet/business/categories/edit-categories/edit-categories.css",
+            "type": "css",
+            "id": "pagelet/business/categories/edit-categories/edit-categories.scss"
+        },
+        "pagelet/business/done-order/done-order-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/business/done-order/done-order-view.js",
+            "type": "js",
+            "id": "pagelet/business/done-order/done-order-view.js"
+        },
+        "pagelet/business/done-order/done-order.scss": {
+            "uri": "/static/9xi_waimai/pagelet/business/done-order/done-order.css",
+            "type": "css"
+        },
+        "pagelet/business/nav/nav-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/business/nav/nav-view.js",
+            "type": "js",
+            "id": "pagelet/business/nav/nav-view.js"
+        },
+        "pagelet/business/nav/nav.scss": {
+            "uri": "/static/9xi_waimai/pagelet/business/nav/nav.css",
+            "type": "css"
+        },
+        "pagelet/business/new-order/new-order-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/business/new-order/new-order-view.js",
+            "type": "js",
+            "id": "pagelet/business/new-order/new-order-view.js"
+        },
+        "pagelet/business/new-order/new-order.scss": {
+            "uri": "/static/9xi_waimai/pagelet/business/new-order/new-order.css",
+            "type": "css"
+        },
+        "pagelet/business/products/add-product/add-product.js": {
+            "uri": "/static/9xi_waimai/pagelet/business/products/add-product/add-product.js",
+            "type": "js",
+            "deps": [
+                "pagelet/business/products/add-product/add-product.scss"
+            ],
+            "id": "pagelet/business/products/add-product/add-product.js"
+        },
+        "pagelet/business/products/add-product/add-product.scss": {
+            "uri": "/static/9xi_waimai/pagelet/business/products/add-product/add-product.css",
+            "type": "css",
+            "id": "pagelet/business/products/add-product/add-product.scss"
+        },
+        "pagelet/business/products/edit-product/edit-product.js": {
+            "uri": "/static/9xi_waimai/pagelet/business/products/edit-product/edit-product.js",
+            "type": "js",
+            "deps": [
+                "pagelet/business/products/edit-product/edit-product.scss"
+            ],
+            "id": "pagelet/business/products/edit-product/edit-product.js"
+        },
+        "pagelet/business/products/edit-product/edit-product.scss": {
+            "uri": "/static/9xi_waimai/pagelet/business/products/edit-product/edit-product.css",
+            "type": "css",
+            "id": "pagelet/business/products/edit-product/edit-product.scss"
+        },
+        "pagelet/business/products/products.js": {
+            "uri": "/static/9xi_waimai/pagelet/business/products/products.js",
+            "type": "js",
+            "deps": [
+                "pagelet/business/products/products.scss"
+            ],
+            "id": "pagelet/business/products/products.js"
+        },
+        "pagelet/business/products/products.scss": {
+            "uri": "/static/9xi_waimai/pagelet/business/products/products.css",
+            "type": "css",
+            "id": "pagelet/business/products/products.scss"
+        },
+        "pagelet/customer/address/add-address/add-address-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/customer/address/add-address/add-address-view.js",
+            "type": "js",
+            "id": "pagelet/customer/address/add-address/add-address-view.js"
+        },
+        "pagelet/customer/address/add-address/add-address.scss": {
+            "uri": "/static/9xi_waimai/pagelet/customer/address/add-address/add-address.css",
+            "type": "css"
+        },
+        "pagelet/customer/address/address-list-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/customer/address/address-list-view.js",
+            "type": "js",
+            "id": "pagelet/customer/address/address-list-view.js"
+        },
+        "pagelet/customer/address/address-list.scss": {
+            "uri": "/static/9xi_waimai/pagelet/customer/address/address-list.css",
+            "type": "css"
+        },
+        "pagelet/customer/menu/menu-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/customer/menu/menu-view.js",
+            "type": "js",
+            "id": "pagelet/customer/menu/menu-view.js"
+        },
+        "pagelet/customer/menu/menu.scss": {
+            "uri": "/static/9xi_waimai/pagelet/customer/menu/menu.css",
+            "type": "css"
+        },
+        "pagelet/customer/nav/nav-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/customer/nav/nav-view.js",
+            "type": "js",
+            "id": "pagelet/customer/nav/nav-view.js"
+        },
+        "pagelet/customer/nav/nav.scss": {
+            "uri": "/static/9xi_waimai/pagelet/customer/nav/nav.css",
+            "type": "css"
+        },
+        "pagelet/customer/orders/order-create/order-create-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/customer/orders/order-create/order-create-view.js",
+            "type": "js",
+            "id": "pagelet/customer/orders/order-create/order-create-view.js"
+        },
+        "pagelet/customer/orders/order-create/order-create.scss": {
+            "uri": "/static/9xi_waimai/pagelet/customer/orders/order-create/order-create.css",
+            "type": "css"
+        },
+        "pagelet/customer/orders/order-detail/order-detail-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/customer/orders/order-detail/order-detail-view.js",
+            "type": "js",
+            "id": "pagelet/customer/orders/order-detail/order-detail-view.js"
+        },
+        "pagelet/customer/orders/order-detail/order-detail.scss": {
+            "uri": "/static/9xi_waimai/pagelet/customer/orders/order-detail/order-detail.css",
+            "type": "css"
+        },
+        "pagelet/customer/orders/orders-view.js": {
+            "uri": "/static/9xi_waimai/pagelet/customer/orders/orders-view.js",
+            "type": "js",
+            "id": "pagelet/customer/orders/orders-view.js"
+        },
+        "pagelet/customer/orders/orders.scss": {
+            "uri": "/static/9xi_waimai/pagelet/customer/orders/orders.css",
+            "type": "css"
+        },
+        "pagelet/handlebarHelp.js": {
+            "uri": "/static/9xi_waimai/pagelet/handlebarHelp.js",
+            "type": "js",
+            "id": "pagelet/handlebarHelp.js"
+        },
+        "pagelet/models.js": {
+            "uri": "/static/9xi_waimai/pagelet/models.js",
+            "type": "js",
+            "id": "pagelet/models.js"
+        },
+        "pagelet/router.js": {
+            "uri": "/static/9xi_waimai/pagelet/router.js",
+            "type": "js",
+            "id": "pagelet/router.js"
+        },
+        "static/css/_base.scss": {
+            "uri": "/static/9xi_waimai/static/css/_base.css",
+            "type": "css"
+        },
+        "static/css/_common.scss": {
+            "uri": "/static/9xi_waimai/static/css/_common.css",
+            "type": "css"
+        },
+        "static/css/_iconfont.scss": {
+            "uri": "/static/9xi_waimai/static/css/_iconfont.css",
+            "type": "css"
+        },
+        "static/css/_normalize.scss": {
+            "uri": "/static/9xi_waimai/static/css/_normalize.css",
+            "type": "css"
+        },
+        "static/css/index.scss": {
+            "uri": "/static/9xi_waimai/static/css/index.css",
+            "type": "css"
+        },
+        "static/js/mod.js": {
+            "uri": "/static/9xi_waimai/static/js/mod.js",
+            "type": "js"
+        },
+        "static/js/util.js": {
+            "uri": "/static/9xi_waimai/static/js/util.js",
+            "type": "js"
+        },
+        "static/js/zepto.min.js": {
+            "uri": "/static/9xi_waimai/static/js/zepto.min.js",
+            "type": "js"
+        },
+        "static/lib/backbone/backbone-min.js": {
+            "uri": "/static/9xi_waimai/static/lib/backbone/backbone-min.js",
+            "type": "js",
+            "deps": [
+                "underscore",
+                "jquery"
+            ]
+        },
+        "static/lib/backbone/backbone.js": {
+            "uri": "/static/9xi_waimai/static/lib/backbone/backbone.js",
+            "type": "js",
+            "deps": [
+                "underscore",
+                "jquery"
+            ]
+        },
+        "static/lib/handlebars/handlebars.amd.js": {
+            "uri": "/static/9xi_waimai/static/lib/handlebars/handlebars.amd.js",
+            "type": "js",
+            "deps": [
+                "source-map"
+            ]
+        },
+        "static/lib/handlebars/handlebars.amd.min.js": {
+            "uri": "/static/9xi_waimai/static/lib/handlebars/handlebars.amd.min.js",
+            "type": "js"
+        },
+        "static/lib/handlebars/handlebars.js": {
+            "uri": "/static/9xi_waimai/static/lib/handlebars/handlebars.js",
+            "type": "js",
+            "deps": [
+                "source-map"
+            ]
+        },
+        "static/lib/handlebars/handlebars.min.js": {
+            "uri": "/static/9xi_waimai/static/lib/handlebars/handlebars.min.js",
+            "type": "js"
+        },
+        "static/lib/handlebars/handlebars.runtime.amd.js": {
+            "uri": "/static/9xi_waimai/static/lib/handlebars/handlebars.runtime.amd.js",
+            "type": "js"
+        },
+        "static/lib/handlebars/handlebars.runtime.amd.min.js": {
+            "uri": "/static/9xi_waimai/static/lib/handlebars/handlebars.runtime.amd.min.js",
+            "type": "js"
+        },
+        "static/lib/handlebars/handlebars.runtime.js": {
+            "uri": "/static/9xi_waimai/static/lib/handlebars/handlebars.runtime.js",
+            "type": "js"
+        },
+        "static/lib/handlebars/handlebars.runtime.min.js": {
+            "uri": "/static/9xi_waimai/static/lib/handlebars/handlebars.runtime.min.js",
+            "type": "js"
+        },
+        "static/lib/underscore/underscore-min.js": {
+            "uri": "/static/9xi_waimai/static/lib/underscore/underscore-min.js",
+            "type": "js"
+        },
+        "static/lib/underscore/underscore.js": {
+            "uri": "/static/9xi_waimai/static/lib/underscore/underscore.js",
+            "type": "js"
+        },
+        "static/lib/weui/dist/example/example.css": {
+            "uri": "/static/9xi_waimai/static/lib/weui/dist/example/example.css",
+            "type": "css"
+        },
+        "static/lib/weui/dist/example/example.js": {
+            "uri": "/static/9xi_waimai/static/lib/weui/dist/example/example.js",
+            "type": "js",
+            "deps": [
+                "static/lib/weui/dist/example/example.css"
+            ]
+        },
+        "static/lib/weui/dist/example/zepto.min.js": {
+            "uri": "/static/9xi_waimai/static/lib/weui/dist/example/zepto.min.js",
+            "type": "js"
+        },
+        "static/lib/weui/dist/style/weui.css": {
+            "uri": "/static/9xi_waimai/static/lib/weui/dist/style/weui.css",
+            "type": "css"
+        },
+        "static/lib/weui/dist/style/weui.min.css": {
+            "uri": "/static/9xi_waimai/static/lib/weui/dist/style/weui.min.css",
+            "type": "css"
+        },
+        "static/lib/weui/gulpfile.js": {
+            "uri": "/static/9xi_waimai/static/lib/weui/gulpfile.js",
+            "type": "js",
+            "deps": [
+                "path",
+                "fs",
+                "yargs",
+                "gulp",
+                "gulp-less",
+                "gulp-header",
+                "gulp-tap",
+                "gulp-cssnano",
+                "gulp-autoprefixer",
+                "gulp-rename",
+                "gulp-sourcemaps",
+                "browser-sync",
+                "static/lib/weui/package.json"
+            ]
+        },
+        "static/lib/weui/src/example/example.js": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/example/example.js",
+            "type": "js"
+        },
+        "static/lib/weui/src/example/example.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/example/example.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/example/zepto.min.js": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/example/zepto.min.js",
+            "type": "js"
+        },
+        "static/lib/weui/src/style/base/fn.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/fn.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/mixin/mobile.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/mixin/mobile.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/mixin/setArrow.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/mixin/setArrow.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/mixin/setChecked.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/mixin/setChecked.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/mixin/setOnepx.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/mixin/setOnepx.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/mixin/text.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/mixin/text.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/reset.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/reset.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/variable/global.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/variable/global.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/variable/monokai.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/variable/monokai.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/variable/weui_button.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/variable/weui_button.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/variable/weui_cell.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/variable/weui_cell.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/variable/weui_grid.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/variable/weui_grid.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/variable/weui_msg.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/variable/weui_msg.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/base/variable/weui_progress.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/base/variable/weui_progress.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/icon/weui_font.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/icon/weui_font.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/icon/weui_icon_font.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/icon/weui_icon_font.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/weui.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/weui.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_button/weui_btn_default.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_button/weui_btn_default.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_button/weui_btn_disabled.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_button/weui_btn_disabled.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_button/weui_btn_global.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_button/weui_btn_global.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_button/weui_btn_plain.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_button/weui_btn_plain.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_button/weui_btn_primary.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_button/weui_btn_primary.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_button/weui_btn_warn.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_button/weui_btn_warn.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_button/weui_button.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_button/weui_button.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_access.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_access.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_cell_global.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_cell_global.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_check.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_check.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_check/weui_check_common.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_check/weui_check_common.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_check/weui_checkbox.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_check/weui_checkbox.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_check/weui_radio.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_check/weui_radio.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_form.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_form.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_form/weui_form_common.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_form/weui_form_common.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_form/weui_select.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_form/weui_select.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_form/weui_select_after.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_form/weui_select_after.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_form/weui_select_before.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_form/weui_select_before.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_form/weui_vcode.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_form/weui_vcode.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_switch.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_switch.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_cell/weui_uploader.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_cell/weui_uploader.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_grid/weui_grid.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_grid/weui_grid.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_page/weui_article.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_page/weui_article.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_page/weui_msg.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_page/weui_msg.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_progress/weui_progress.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_progress/weui_progress.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_tips/weui_actionsheet.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_tips/weui_actionsheet.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_tips/weui_dialog.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_tips/weui_dialog.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_tips/weui_mask.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_tips/weui_mask.less",
+            "type": "less"
+        },
+        "static/lib/weui/src/style/widget/weui_tips/weui_toast.less": {
+            "uri": "/static/9xi_waimai/static/lib/weui/src/style/widget/weui_tips/weui_toast.less",
+            "type": "less"
+        }
+    },
+    "pkg": {}
+}

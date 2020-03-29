@@ -1,0 +1,21 @@
+/* global color variables */
+/* mixins and functions */
+#address-list {
+  color: #333; }
+  #address-list .address-cell {
+    border-top: .3rem dashed #BD738B; }
+    #address-list .address-cell p:first-child {
+      margin-top: .5rem;
+      padding: 0.5rem 0 0.3rem; }
+    #address-list .address-cell p:last-child {
+      padding: 0.3rem 0 0.5rem; }
+    #address-list .address-cell .fullname {
+      padding-right: .6rem; }
+    #address-list .address-cell .selected-sign {
+      position: absolute;
+      top: .7rem;
+      right: .5rem;
+      padding: .2rem;
+      font-size: .7rem;
+      color: #FFFFFF;
+      background-color: #C46B6B; }

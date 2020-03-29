@@ -1,0 +1,12 @@
+flask
+flask-sqlalchemy
+flask-script
+flask_migrate
+flask-wtf
+stripe
+qiniu
+ndg-httpsclient
+pytz
+xmltodict>=0.9.2
+redis
+rq

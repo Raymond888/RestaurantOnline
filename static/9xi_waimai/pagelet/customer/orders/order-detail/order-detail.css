@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* global color variables */
+/* mixins and functions */
+#order-detail {
+  margin-top: 2rem; }
+  #order-detail .weui_label {
+    width: 5rem; }
+  #order-detail .button-div {
+    padding: 0 15px; }
+  #order-detail .pay {
+    margin-top: 1rem; }
+  #order-detail .process .process-status {
+    height: 2rem;
+    font-size: 0.8rem; }
+    #order-detail .process .process-status .circle {
+      border-radius: 50%;
+      width: 1rem;
+      height: 1rem;
+      position: absolute;
+      background-color: #cccccc;
+      left: 50%;
+      transform: translate(-50%);
+      -ms-transform: translate(-50%);
+      /* IE 9 */
+      -moz-transform: translate(-50%);
+      /* Firefox */
+      -webkit-transform: translate(-50%);
+      /* Safari 和 Chrome */
+      -o-transform: translate(-50%); }
+      #order-detail .process .process-status .circle.nobg {
+        background: inherit; }
+    #order-detail .process .process-status .line {
+      top: 0.5rem;
+      width: 70%;
+      height: 2px;
+      background-color: #cccccc;
+      position: absolute;
+      left: 65%; }
+    #order-detail .process .process-status .status-string {
+      line-height: 4rem; }
+    #order-detail .process .process-status .process-item {
+      text-align: center;
+      height: 3rem;
+      width: 25%;
+      float: left;
+      position: relative; }
+      #order-detail .process .process-status .process-item:last-child .line {
+        background-color: #f8f8f8; }
+      #order-detail .process .process-status .process-item .icon-shiliangzhinengduixiang {
+        color: #ffbe00;
+        font-size: 1.4rem;
+        position: relative;
+        top: -0.7rem;
+        left: -0.2rem; }
+  #order-detail .dish-list {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc; }
+    #order-detail .dish-list h4 {
+      padding-left: 1rem;
+      color: #cbcbcb;
+      font-weight: normal;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+    #order-detail .dish-list .dish-item {
+      width: 100%;
+      margin-bottom: 5px;
+      padding-left: 1rem;
+      padding-right: 1rem; }
+      #order-detail .dish-list .dish-item .dish-name {
+        float: left;
+        width: 65%; }
+      #order-detail .dish-list .dish-item .dish-money {
+        float: right;
+        max-width: 20%; }
+  #order-detail .total-money {
+    background-color: #ffffff;
+    text-align: right;
+    border-bottom: 1px solid #cccccc;
+    padding-right: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px; }

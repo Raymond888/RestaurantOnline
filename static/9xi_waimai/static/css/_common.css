@@ -1,0 +1,53 @@
+/* global styles */
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 20px;
+  font-family: "Helvetica","Hiragino Sans GB","Microsoft Yahei",sans-serif;
+  background-color: #eee; }
+
+ol, ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: block; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.main {
+  overflow: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 3rem; }
+
+/* global assistant styles */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.erased-text {
+  text-decoration: line-through;
+  background-color: antiquewhite; }
+
+body, html {
+  height: 100%;
+  width: 100%; }
+
+#alert {
+  display: none;
+  height: 100%; }
+
+.weui_toast .weui_icon_cancel:before {
+  font-size: 55px;
+  margin-top: 22px; }

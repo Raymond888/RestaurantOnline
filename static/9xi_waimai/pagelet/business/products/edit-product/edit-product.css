@@ -1,0 +1,23 @@
+/* global color variables */
+/* mixins and functions */
+#edit-product .weui_label {
+  width: 5rem; }
+#edit-product .weui_uploader_input_wrp {
+  background-size: 100% 100%;
+  float: right; }
+#edit-product .weui_btn {
+  color: #fcc000;
+  border-color: #ffbf00;
+  background-color: #ffffff; }
+#edit-product .weui_btn:after {
+  border-color: #ffbf00;
+  border-width: 2px; }
+#edit-product .weui_select {
+  padding-left: 0;
+  z-index: 0; }
+#edit-product .product-price {
+  width: 90%; }
+#edit-product .weui_uploader_input_wrp:before {
+  height: 0; }
+#edit-product .weui_uploader_input_wrp:after {
+  height: 0; }

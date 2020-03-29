@@ -1,0 +1,21 @@
+{
+  "name": "9xi_waimai",
+  "version": "0.5.0",
+  "authors": [
+    "logchi <logchi@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "handlebars": "~4.0.5",
+    "underscore": "~1.8.3",
+    "weui": "~0.3.0"
+  }
+}
